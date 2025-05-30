@@ -21,6 +21,13 @@ public class GdUnitExampleTest
     {
         AssertString("does").HasLength(14);
     }
+
+    [TestCase]
+    public void Example3()
+    {
+        AssertInt(3).Equals(3);
+    }
+
 }
 
 
