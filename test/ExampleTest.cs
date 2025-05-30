@@ -25,7 +25,7 @@ public class GdUnitExampleTest
     [TestCase]
     public void Example3()
     {
-        AssertInt(3).Equals(3);
+        AssertInt(3).Equals(34);
     }
 
 }
