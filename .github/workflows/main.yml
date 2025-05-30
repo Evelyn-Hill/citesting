@@ -32,7 +32,7 @@ jobs:
         with:
           lfs: true
       # run tests by using the gdUnit4-action with Godot version 4.2.1 and the latest GdUnit4 release 
-      - uses: MikeSchulze/gdUnit4-action@v1.0.2
+      - uses: MikeSchulze/gdUnit4-action@v1
         with:
           godot-version: '4.2.1'
           godot-net: true
